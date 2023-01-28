@@ -10,14 +10,16 @@
 <body>
     <div id="form-box">
         <form id="login-page-form">
-            <label> Username: </label>
+            <div class="username-box">
+                <label class="username-label"> Username: </label>
                 <input type="text" id="username">
-    
-                <br>
-            <label> Password: </label>
+            </div>
+            
+            <div class="password-box">
+                <label> Password: </label>
                 <input type="password" id="password">
-    
-                <br>
+            </div>
+            
             <button id="submit_button" type="submit" onclick="validateInputs()">
                 Submit
             </button>

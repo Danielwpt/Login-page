@@ -5,9 +5,9 @@
 }
 
 #form-box {
-    display: flex;
-    justify-content: center;
+    display:flex;
     align-items: center;
+    justify-content: center;
     border: 1px black solid;
 }
 
@@ -16,4 +16,21 @@
     margin: 10px;
     border: 1px black solid;
     border-radius:5px;
+}
+
+.username-box {
+    border: 1px black solid;
+    padding: 5px;
+    margin: 10px;
+}
+
+.password-box {
+    border: 1px black solid;
+    padding: 5px;
+    margin: 10px;
+}
+
+.username-label {
+    border: 1px black solid;
+    color: blue;
 }
