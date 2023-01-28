@@ -14,7 +14,7 @@
 #login-page-form {
     padding: 15px;
     margin: 10px;
-    border: 1px black solid;
+    border: 1px blue solid;
     border-radius:5px;
 }
 
@@ -30,7 +30,11 @@
     margin: 10px;
 }
 
-.username-label {
-    border: 1px black solid;
-    color: blue;
+#password-error-tip {
+    color: red;
+}
+
+#submit_button {
+    height: 35px;
+    width: 64px;
 }

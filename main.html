@@ -13,17 +13,18 @@
             <div class="username-box">
                 <label class="username-label"> Username: </label>
                 <input type="text" id="username">
+                <label class="username-error-tip"></label>
             </div>
             
             <div class="password-box">
                 <label> Password: </label>
                 <input type="password" id="password">
+                <br>
+                <label id="password-error-tip"></label>
             </div>
-            
-            <button id="submit_button" type="submit" onclick="validateInputs()">
-                Submit
-            </button>
-        </form>    
+
+            <button type="button" id="submit_button" onclick="validateInputs()"> Submit </button>
+        </form>
     </div>
     
     <script src="main.js"></script>
